@@ -6,3 +6,4 @@ const orderSchema = new mongoose.Schema({
 })
 
 
+mongoose.model("Orders",orderSchema)
